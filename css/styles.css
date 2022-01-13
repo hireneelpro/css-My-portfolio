@@ -414,12 +414,7 @@ Hero
   border-radius: 0.5rem;
   z-index: 2;
 }
-/* .hero-photo img{
-  display: none;
-}
-.container{
-  display: none;
-} */
+
 
 @media screen and (min-width: 768px) {
   .hero-photo {
