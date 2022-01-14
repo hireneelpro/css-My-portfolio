@@ -894,7 +894,7 @@ Blog
   place-items: center;
   z-index: -1;
   background-color: var(--clr-primary-9);
-  transform: rotateY(-180deg);
+  transform: rotateY(180deg);
 }
 
 .front,
@@ -912,7 +912,7 @@ Blog
   transform: rotateY(180deg);
 }
 .single-card:hover .back {
-  transform: rotateY(0deg);
+  transform: rotateY(360deg);
 }
 
 .blog-center {
