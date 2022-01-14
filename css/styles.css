@@ -904,7 +904,6 @@ Blog
   width: 100%;
   box-shadow: var(--dark-shadow);
 
-  /* position: relative; */
   transition: var(--transition);
   backface-visibility: hidden;
 }
@@ -918,8 +917,7 @@ Blog
 
 .blog-center {
   padding-bottom: 2rem;
-  row-gap: 2rem;
-  column-gap: 2rem;
+  gap: 2rem 2rem;
   height: 100%;
   display: grid;
 }
@@ -932,7 +930,7 @@ Blog
 @media screen and (min-width: 992px) {
   .blog-center {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 1fr;
   }
 }
 
