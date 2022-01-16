@@ -263,7 +263,7 @@ Navbar
 .nav-center {
   width: 100vw;
   height: 4rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.589);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -308,7 +308,7 @@ Navbar
     column-gap: 3em;
   }
   .nav-center {
-    background-color: var(--clr-primary-10);
+    background-color: rgba(255, 255, 255, 0.96);
   }
 }
 
