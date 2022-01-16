@@ -271,6 +271,8 @@ Navbar
   /* box-shadow: var(--dark-shadow); */
   position: fixed;
   z-index: 3;
+  top: 0;
+  left: 0;
 }
 .nav-center h1 {
   font-size: 3rem;
@@ -294,7 +296,7 @@ Navbar
 
 .menu-icon {
   font-size: 2.5rem;
-  color: var(--clr-grey-9);
+  color: var(--clr-primary-5);
 }
 @media screen and (min-width: 992px) {
   .menu-icon {
@@ -374,11 +376,10 @@ Sidebar
 Hero
 ===============
 */
-.hero-all{
+.hero-all {
   height: 100vh;
   width: 100vw;
   padding: 4rem 0 0 0;
-
 }
 .hero {
   width: 100%;
@@ -404,7 +405,6 @@ Hero
 .hero-photo {
   display: none;
   position: relative;
-
 }
 .container {
   border: 5px solid var(--clr-primary-5);
@@ -423,7 +423,6 @@ Hero
   border-radius: 0.5rem;
   z-index: 2;
 }
-
 
 @media screen and (min-width: 768px) {
   .hero-photo {
